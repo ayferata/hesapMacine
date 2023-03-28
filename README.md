@@ -33,6 +33,7 @@ public class KullaniciGirisi {
                 System.out.print("Yeni şifrenizi giriniz: ");
                 password2 = input.next();
                 if(password2.equals(password) || password2.equals("java123")){
+                
                     System.out.println("Şifreniz oluşturulamadı tekrar deneyiniz.");
                 }else{
                     System.out.println("Şifreniz başarıyla oluşturuldu.");
