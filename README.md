@@ -24,6 +24,7 @@ public class KullaniciGirisi {
             System.out.println("Sifreniz yanlış!");
             System.out.println("Şifrenizi sıfırlamak istiyor musunuz ? İstemiyorsanız -1 İstiyorsanız - 2 ");
             secim = input.nextInt();
+            
         switch (secim){
             case 1:
                 System.out.println("İşleminiz sonlandırıldı.");
