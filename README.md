@@ -16,6 +16,7 @@ public class KullaniciGirisi {
 
         if (id.equals("patika.dev") && password.equals("java101")) {
             System.out.println("Giriş başarılı");
+            
         } else if
               (id.equals("patika.dev") && !password.equals("java123"))
     {
